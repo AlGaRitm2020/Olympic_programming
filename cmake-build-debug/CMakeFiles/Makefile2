@@ -93,12 +93,12 @@ clean: CMakeFiles/Olympic_programming.dir/clean
 CMakeFiles/Olympic_programming.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Olympic_programming.dir/build.make CMakeFiles/Olympic_programming.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Olympic_programming.dir/build.make CMakeFiles/Olympic_programming.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/albert/CLionProjects/Olympic_programming/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Olympic_programming"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/albert/CLionProjects/Olympic_programming/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Olympic_programming"
 .PHONY : CMakeFiles/Olympic_programming.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Olympic_programming.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/albert/CLionProjects/Olympic_programming/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/albert/CLionProjects/Olympic_programming/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Olympic_programming.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/albert/CLionProjects/Olympic_programming/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Olympic_programming.dir/rule

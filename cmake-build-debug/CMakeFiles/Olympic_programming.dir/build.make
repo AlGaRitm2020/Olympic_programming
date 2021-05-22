@@ -76,45 +76,30 @@ include CMakeFiles/Olympic_programming.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Olympic_programming.dir/flags.make
 
-CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.o: CMakeFiles/Olympic_programming.dir/flags.make
-CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.o: ../queen_сuts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albert/CLionProjects/Olympic_programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.o -c /home/albert/CLionProjects/Olympic_programming/queen_сuts.cpp
+CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.o: CMakeFiles/Olympic_programming.dir/flags.make
+CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.o: ../Matrix/skittles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albert/CLionProjects/Olympic_programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.o -c /home/albert/CLionProjects/Olympic_programming/Matrix/skittles.cpp
 
-CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/albert/CLionProjects/Olympic_programming/queen_сuts.cpp > CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.i
+CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/albert/CLionProjects/Olympic_programming/Matrix/skittles.cpp > CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.i
 
-CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/albert/CLionProjects/Olympic_programming/queen_сuts.cpp -o CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.s
-
-CMakeFiles/Olympic_programming.dir/Matrix.cpp.o: CMakeFiles/Olympic_programming.dir/flags.make
-CMakeFiles/Olympic_programming.dir/Matrix.cpp.o: ../Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/albert/CLionProjects/Olympic_programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Olympic_programming.dir/Matrix.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Olympic_programming.dir/Matrix.cpp.o -c /home/albert/CLionProjects/Olympic_programming/Matrix.cpp
-
-CMakeFiles/Olympic_programming.dir/Matrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Olympic_programming.dir/Matrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/albert/CLionProjects/Olympic_programming/Matrix.cpp > CMakeFiles/Olympic_programming.dir/Matrix.cpp.i
-
-CMakeFiles/Olympic_programming.dir/Matrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Olympic_programming.dir/Matrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/albert/CLionProjects/Olympic_programming/Matrix.cpp -o CMakeFiles/Olympic_programming.dir/Matrix.cpp.s
+CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/albert/CLionProjects/Olympic_programming/Matrix/skittles.cpp -o CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.s
 
 # Object files for target Olympic_programming
 Olympic_programming_OBJECTS = \
-"CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.o" \
-"CMakeFiles/Olympic_programming.dir/Matrix.cpp.o"
+"CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.o"
 
 # External object files for target Olympic_programming
 Olympic_programming_EXTERNAL_OBJECTS =
 
-Olympic_programming: CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.o
-Olympic_programming: CMakeFiles/Olympic_programming.dir/Matrix.cpp.o
+Olympic_programming: CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.o
 Olympic_programming: CMakeFiles/Olympic_programming.dir/build.make
 Olympic_programming: CMakeFiles/Olympic_programming.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/albert/CLionProjects/Olympic_programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Olympic_programming"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/albert/CLionProjects/Olympic_programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Olympic_programming"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Olympic_programming.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

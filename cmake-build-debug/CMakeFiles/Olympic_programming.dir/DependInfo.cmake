@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/albert/CLionProjects/Olympic_programming/Matrix.cpp" "/home/albert/CLionProjects/Olympic_programming/cmake-build-debug/CMakeFiles/Olympic_programming.dir/Matrix.cpp.o"
-  "/home/albert/CLionProjects/Olympic_programming/queen_сuts.cpp" "/home/albert/CLionProjects/Olympic_programming/cmake-build-debug/CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.o"
+  "/home/albert/CLionProjects/Olympic_programming/Matrix/skittles.cpp" "/home/albert/CLionProjects/Olympic_programming/cmake-build-debug/CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

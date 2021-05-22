@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Olympic_programming.dir/Matrix.cpp.o"
-  "CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.o"
+  "CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.o"
   "Olympic_programming"
   "Olympic_programming.pdb"
 )

@@ -82,10 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/albert/CLionProjects/Olympic_programming/Matrix.cpp">
-			<Option target="Olympic_programming"/>
-		</Unit>
-		<Unit filename="/home/albert/CLionProjects/Olympic_programming/queen_сuts.cpp">
+		<Unit filename="/home/albert/CLionProjects/Olympic_programming/Matrix/skittles.cpp">
 			<Option target="Olympic_programming"/>
 		</Unit>
 		<Unit filename="/home/albert/CLionProjects/Olympic_programming/CMakeLists.txt">

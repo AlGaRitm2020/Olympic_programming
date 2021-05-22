@@ -142,59 +142,32 @@ Olympic_programming/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Olympic_programming.dir/build.make CMakeFiles/Olympic_programming.dir/build
 .PHONY : Olympic_programming/fast
 
-Matrix.o: Matrix.cpp.o
+Matrix/skittles.o: Matrix/skittles.cpp.o
 
-.PHONY : Matrix.o
-
-# target to build an object file
-Matrix.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Olympic_programming.dir/build.make CMakeFiles/Olympic_programming.dir/Matrix.cpp.o
-.PHONY : Matrix.cpp.o
-
-Matrix.i: Matrix.cpp.i
-
-.PHONY : Matrix.i
-
-# target to preprocess a source file
-Matrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Olympic_programming.dir/build.make CMakeFiles/Olympic_programming.dir/Matrix.cpp.i
-.PHONY : Matrix.cpp.i
-
-Matrix.s: Matrix.cpp.s
-
-.PHONY : Matrix.s
-
-# target to generate assembly for a file
-Matrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Olympic_programming.dir/build.make CMakeFiles/Olympic_programming.dir/Matrix.cpp.s
-.PHONY : Matrix.cpp.s
-
-queen_сuts.o: queen_сuts.cpp.o
-
-.PHONY : queen_сuts.o
+.PHONY : Matrix/skittles.o
 
 # target to build an object file
-queen_сuts.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Olympic_programming.dir/build.make CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.o
-.PHONY : queen_сuts.cpp.o
+Matrix/skittles.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Olympic_programming.dir/build.make CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.o
+.PHONY : Matrix/skittles.cpp.o
 
-queen_сuts.i: queen_сuts.cpp.i
+Matrix/skittles.i: Matrix/skittles.cpp.i
 
-.PHONY : queen_сuts.i
+.PHONY : Matrix/skittles.i
 
 # target to preprocess a source file
-queen_сuts.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Olympic_programming.dir/build.make CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.i
-.PHONY : queen_сuts.cpp.i
+Matrix/skittles.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Olympic_programming.dir/build.make CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.i
+.PHONY : Matrix/skittles.cpp.i
 
-queen_сuts.s: queen_сuts.cpp.s
+Matrix/skittles.s: Matrix/skittles.cpp.s
 
-.PHONY : queen_сuts.s
+.PHONY : Matrix/skittles.s
 
 # target to generate assembly for a file
-queen_сuts.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Olympic_programming.dir/build.make CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.s
-.PHONY : queen_сuts.cpp.s
+Matrix/skittles.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Olympic_programming.dir/build.make CMakeFiles/Olympic_programming.dir/Matrix/skittles.cpp.s
+.PHONY : Matrix/skittles.cpp.s
 
 # Help Target
 help:
@@ -205,12 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Olympic_programming"
-	@echo "... Matrix.o"
-	@echo "... Matrix.i"
-	@echo "... Matrix.s"
-	@echo "... queen_сuts.o"
-	@echo "... queen_сuts.i"
-	@echo "... queen_сuts.s"
+	@echo "... Matrix/skittles.o"
+	@echo "... Matrix/skittles.i"
+	@echo "... Matrix/skittles.s"
 .PHONY : help
 
 
