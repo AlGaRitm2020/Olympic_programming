@@ -1,0 +1,3 @@
+/home/albert/CLionProjects/Olympic_programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/albert/CLionProjects/Olympic_programming/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/albert/CLionProjects/Olympic_programming/cmake-build-debug/CMakeFiles/Olympic_programming.dir

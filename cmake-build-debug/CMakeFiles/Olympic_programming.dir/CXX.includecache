@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/albert/CLionProjects/Olympic_programming/queen_сuts.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+iterator
+-
+iomanip
+-
+string
+-
+

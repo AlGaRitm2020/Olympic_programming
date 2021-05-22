@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Olympic_programming.dir/queen_сuts.cpp.o CMakeFiles/Olympic_programming.dir/Matrix.cpp.o -o Olympic_programming 
